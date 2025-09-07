@@ -54,6 +54,12 @@ chatter-app/
 | `FEED`    | float    | Feed rate                                   |
 | `CHATTER` | int/bool | Target label (e.g., 0 = no chatter, 1 = yes)|
 
+##🖥️ Using the App
+
+In the sidebar, set the Data folder path to your .csv/.xlsx files.
+
+Adjust segment size (e.g., 1024), step size (e.g., 256), and sampling rate (e.g., 10005 Hz).
+
 **Minimal CSV example:**
 ```csv
 FZ,DOC,SPEED,FEED,CHATTER
@@ -61,11 +67,6 @@ FZ,DOC,SPEED,FEED,CHATTER
 0.011,0.5,1200,0.15,0
 0.017,0.5,1200,0.15,1
 ...
-##🖥️ Using the App
-
-In the sidebar, set the Data folder path to your .csv/.xlsx files.
-
-Adjust segment size (e.g., 1024), step size (e.g., 256), and sampling rate (e.g., 10005 Hz).
 
 Click 🔎 Extract Features to build the feature table (downloadable as CSV).
 
