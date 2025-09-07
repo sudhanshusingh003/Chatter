@@ -61,7 +61,7 @@ FZ,DOC,SPEED,FEED,CHATTER
 0.011,0.5,1200,0.15,0
 0.017,0.5,1200,0.15,1
 ...
-🖥️ Using the App
+##🖥️ Using the App
 
 In the sidebar, set the Data folder path to your .csv/.xlsx files.
 
@@ -74,11 +74,3 @@ Review time/FFT previews, correlation heatmaps, and top correlations vs chatter.
 Pick a model (RandomForest or XGBoost), set hyperparameters, and click 🚀 Train Model.
 
 Inspect the classification report, confusion matrix, train/test accuracy, and download the .joblib bundle.
-🤝 Contributing
-
-PRs welcome! Keep UI logic in app/ and reusable logic in backend/.
-Include a clear description and screenshots for UI changes.
-
-📝 License
-
-Add your preferred license (e.g., MIT) if you publish.
